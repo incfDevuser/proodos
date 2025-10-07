@@ -113,7 +113,6 @@ const Testimonios = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-red-600 to-red-700 rounded-2xl shadow-xl hover:from-red-700 hover:to-red-800 transition-all duration-300 transform hover:scale-105"
           >
-            <FiInstagram size={20} className="text-white" />
             <span className="text-white font-semibold">
               Síguenos para más historias de éxito
             </span>

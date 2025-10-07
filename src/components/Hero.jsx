@@ -31,7 +31,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-red-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </a>
             <a
-              href="#accesorios"
+              href="#productos"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-red-600 border-2 border-red-500 rounded-2xl hover:bg-red-50 hover:border-red-600 transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               Ver accesorios
