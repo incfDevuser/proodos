@@ -5,12 +5,12 @@ const DatosTransferenia = () => {
   const [copied, setCopied] = useState(false);
 
   const bankData = {
-    titular: "CONSTANZA ORMEÑO",
-    rut: "21.280.428-2",
-    banco: "BANCO DE CHILE",
-    tipoCuenta: "CUENTA CORRIENTE",
-    numeroCuenta: "00-473-05632-01",
-    email: "cony.paola.ob@gmail.com",
+    titular: "IGNACIO ALEXIS ACEVEDO MORA",
+    rut: "21.148.323-7",
+    banco: "Banco prepago tenpo",
+    tipoCuenta: "CUENTA VISTA",
+    numeroCuenta: "111121148323",
+    email: "ignacio.acevedom@usm.cl",
   };
 
   const copy = async () => {
