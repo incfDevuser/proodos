@@ -105,7 +105,7 @@ const NavBar = () => {
           ref={navRef}
           className="px-4 sm:px-6 lg:px-8"
           style={{
-            height: "72px",
+            height: "80px",
             width: "100%",
             margin: "0 auto",
             backgroundColor: "#000",
@@ -123,22 +123,29 @@ const NavBar = () => {
                 setOpen(false);
               }}
             >
-              {proodosLogo ? (
-                <img
-                  ref={logoRef}
-                  src={proodosLogo}
-                  alt="Proodos"
-                  className="will-change-transform h-14 sm:h-16 md:h-20 lg:h-24 xl:h-28 w-auto object-contain"
-                  style={{
-                    transformOrigin: "left center",
-                    transition: "transform 200ms ease",
-                  }}
-                />
-              ) : (
+              <div className="lg:hidden">
                 <div ref={logoRef} className="text-2xl font-bold text-white">
                   Proodos
                 </div>
-              )}
+              </div>
+              <div className="hidden lg:block">
+                {proodosLogo ? (
+                  <img
+                    ref={logoRef}
+                    src={proodosLogo}
+                    alt="Proodos"
+                    className="will-change-transform h-16 md:h-20 lg:h-24 xl:h-28 w-auto object-contain"
+                    style={{
+                      transformOrigin: "left center",
+                      transition: "transform 200ms ease",
+                    }}
+                  />
+                ) : (
+                  <div ref={logoRef} className="text-2xl font-bold text-white">
+                    Proodos
+                  </div>
+                )}
+              </div>
             </a>
             <div className="hidden lg:flex gap-11 font-medium">
               {links.map((link) => (
@@ -203,7 +210,7 @@ const NavBar = () => {
         </div>
         <div
           id="mobile-menu"
-          className={`lg:hidden fixed top-[72px] left-0 right-0 z-50 origin-top transition-transform duration-200`}
+          className={`lg:hidden fixed top-[80px] left-0 right-0 z-50 origin-top transition-transform duration-200`}
           style={{ transform: open ? "scaleY(1)" : "scaleY(0.96)" }}
         >
           <div
