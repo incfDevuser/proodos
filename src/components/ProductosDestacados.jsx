@@ -25,9 +25,12 @@ const ProductosDestacados = () => {
                 className="w-full h-full object-cover rounded-2xl"
               />
             </div>
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">
+            <h3 className="text-3xl font-bold text-gray-900 mb-2">
               Creatina Proodos
             </h3>
+            <div className="text-3xl font-bold text-red-600 mb-4">
+              $16.000
+            </div>
             <p className="text-lg text-gray-600 mb-8 max-w-md mx-auto">
               100% monohidratada, sin aditivos artificiales. La pureza que
               necesitas para maximizar tus resultados.
@@ -62,7 +65,7 @@ const ProductosDestacados = () => {
           </div>
           <div className="mt-10">
             <a
-              href="#envios"
+              href="#transferencia"
               className="inline-flex items-center bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold py-4 px-8 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               Comprar Ahora
@@ -88,9 +91,12 @@ const ProductosDestacados = () => {
                   className="w-full h-full object-cover rounded-xl"
                 />
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-3">
+              <h4 className="text-xl font-bold text-gray-900 mb-2">
                 Tobilleras de Alta Resistencia
               </h4>
+              <div className="text-2xl font-bold text-red-600 mb-3">
+                $4.000
+              </div>
               <p className="text-gray-600 mb-4">
                 Mejora tu agarre en remos y jalones pesados. Mayor control y
                 seguridad en cada repetición.
@@ -107,9 +113,12 @@ const ProductosDestacados = () => {
                   className="w-full h-full object-cover rounded-xl"
                 />
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-3">
+              <h4 className="text-xl font-bold text-gray-900 mb-2">
                 Muñequeras Deportivas
               </h4>
+              <div className="text-2xl font-bold text-red-600 mb-3">
+                $8.000
+              </div>
               <p className="text-gray-600 mb-4">
                 Soporte y estabilidad para tus muñecas durante levantamientos
                 pesados. Ajuste perfecto y comodidad.
@@ -126,9 +135,12 @@ const ProductosDestacados = () => {
                   className="w-full h-full object-cover rounded-xl"
                 />
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-3">
+              <h4 className="text-xl font-bold text-gray-900 mb-2">
                 Straps de Levantamiento
               </h4>
+              <div className="text-2xl font-bold text-red-600 mb-3">
+                $6.000
+              </div>
               <p className="text-gray-600 mb-4">
                 Fortalece tu agarre en peso muerto y remo. Material resistente y
                 duradero para entrenamientos intensos.
