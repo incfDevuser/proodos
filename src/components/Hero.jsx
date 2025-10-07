@@ -1,18 +1,26 @@
 import React from "react";
-import proodosLogo from "../assets/imgs/prodos_logo.png";
+import proodosLogo from "../assets/imgs/productos/proodos_black.png";
 const Hero = () => {
   return (
-    <header className=" text-black relative overflow-hidden mt-20">
+    <header className="bg-white text-black relative overflow-hidden mt-20">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-32 h-32 bg-red-600 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 right-10 w-40 h-40 bg-gray-800 rounded-full blur-3xl"></div>
       </div>
 
       <div className="container mx-auto px-6 py-20 flex flex-col items-center text-center gap-10 relative z-10">
-        <div className="space-y-4">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-[0.9] max-w-5xl bg-gradient-to-r from-gray-900 via-black to-gray-700 bg-clip-text text-transparent">
-            Proodos
-          </h1>
+        <div className="space-y-6">
+          <div className="flex justify-center mb-6">
+            <img
+              src={proodosLogo}
+              alt="Proodos Logo"
+              className="w-96 h-96 sm:w-[26rem] sm:h-[26rem] md:w-[30rem] md:h-[30rem] lg:w-[34rem] lg:h-[34rem] xl:w-[38rem] xl:h-[38rem]"
+              style={{
+                animation: "horizontalSpin 3s linear infinite",
+                transformStyle: "preserve-3d",
+              }}
+            />
+          </div>
           <p className="text-2xl md:text-3xl font-semibold text-gray-800 max-w-3xl">
             Sube de nivel tu rendimiento
           </p>

@@ -1,9 +1,12 @@
 import React from "react";
 import { FiCheck } from "react-icons/fi";
-
+import munequeras from "../assets/imgs/productos/munequeras.png";
+import tobilleras from "../assets/imgs/productos/tobilleras.png";
+import straps from "../assets/imgs/productos/straps.png";
+import creatina from "../assets/imgs/productos/creatina.png";
 const ProductosDestacados = () => {
   return (
-    <section id="productos" className=" py-20">
+    <section id="productos" className="bg-white py-20">
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -15,8 +18,12 @@ const ProductosDestacados = () => {
         </div>
         <div className="bg-gray-50 rounded-3xl p-8 md:p-12 text-center">
           <div className="mb-8">
-            <div className="w-32 h-32 bg-gradient-to-br from-red-500 to-red-600 rounded-full mx-auto mb-6 flex items-center justify-center shadow-xl">
-              <span className="text-white font-bold text-4xl">P</span>
+            <div className="w-48 h-48 md:w-56 md:h-56 bg-white rounded-2xl p-4  mx-auto mb-6 flex items-center justify-center shadow-xl border border-gray-200 overflow-hidden">
+              <img
+                src={creatina}
+                alt="Creatina Proodos"
+                className="w-full h-full object-cover rounded-2xl"
+              />
             </div>
             <h3 className="text-3xl font-bold text-gray-900 mb-4">
               Creatina Proodos
@@ -74,8 +81,12 @@ const ProductosDestacados = () => {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-50 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-red-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <FiCheck className="w-8 h-8 text-red-600" />
+              <div className="w-32 h-32 md:w-40 md:h-40 bg-white rounded-xl mx-auto mb-4 flex items-center justify-center shadow-sm border border-gray-200 overflow-hidden">
+                <img
+                  src={tobilleras}
+                  alt="Tobilleras"
+                  className="w-full h-full object-cover rounded-xl"
+                />
               </div>
               <h4 className="text-xl font-bold text-gray-900 mb-3">
                 Tobilleras de Alta Resistencia
@@ -89,8 +100,12 @@ const ProductosDestacados = () => {
               </span>
             </div>
             <div className="bg-gray-50 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-red-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <FiCheck className="w-8 h-8 text-red-600" />
+              <div className="w-32 h-32 md:w-40 md:h-40 bg-white rounded-xl mx-auto mb-4 flex items-center justify-center shadow-sm border border-gray-200 overflow-hidden">
+                <img
+                  src={munequeras}
+                  alt="Muñequeras"
+                  className="w-full h-full object-cover rounded-xl"
+                />
               </div>
               <h4 className="text-xl font-bold text-gray-900 mb-3">
                 Muñequeras Deportivas
@@ -104,8 +119,12 @@ const ProductosDestacados = () => {
               </span>
             </div>
             <div className="bg-gray-50 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-red-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <FiCheck className="w-8 h-8 text-red-600" />
+              <div className="w-32 h-32 md:w-40 md:h-40 bg-white rounded-xl mx-auto mb-4 flex items-center justify-center shadow-sm border border-gray-200 overflow-hidden">
+                <img
+                  src={straps}
+                  alt="Straps"
+                  className="w-full h-full object-cover rounded-xl"
+                />
               </div>
               <h4 className="text-xl font-bold text-gray-900 mb-3">
                 Straps de Levantamiento
